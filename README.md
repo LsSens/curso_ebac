@@ -1,1 +1,1 @@
-Para acessar o arquivo desejado entre na branch: exercício_git
+Para acessar o arquivo desejado navegue pelas em branches
