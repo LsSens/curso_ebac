@@ -1,5 +1,5 @@
-Para acessar o projeto feito nessa etapa do curso, acesse:
+Para ver o projeto, acesse:
 
-To access the project made at this stage of the course, go to:
+To see the project, go to:
 
 https://gamesshop-alpha.vercel.app
