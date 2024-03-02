@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #262626;
+    padding: 20px 0;
+}
+
+header a {
+    padding: 0px auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+header,
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header nav li {
+    font-size: 18px;
+    margin-right: 10px;
+    display: inline;
+}
+
+#home {
+    background-color: #262626;
+}
+
+#home .container {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#home h2 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+#home p,
+#home a {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+#home img {
+    margin-bottom: -5px;
+}
+
+#services {
+    background-color: white;
+}
+
+#services .container {
+    text-align: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+#services h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+#services p {
+    font-size: 18px;
+}
+
+#services img {
+    height: 50px;
+}
+
+#services .servicestypes {
+    margin: 25px 0;
+}
+
+#services li {
+    width: 33%;
+    padding: 10px;
+}
+
+#services .servicestypes nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 70%;
+    padding: 0px 50px;
+}
+
+#services .servicestypes h2 { 
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #262626;
+    font-weight: 600;
+}
+
+#services a,
+#about a,
+#home a,
+#contact .buttonwpp a{
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    background-color: aqua;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 15px;
+}
+
+#services a:hover,
+#about a:hover,
+#home a:hover,
+#contact .buttonwpp a:hover {
+    text-decoration: none;
+    background-color: rgb(0, 104, 104)
+}
+
+#about {
+    background-color: #262626;
+    padding: 10px 0;
+}
+
+#about div {
+    width: 70%;
+}
+
+#about .container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+#about .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about .logo img {
+    height: 250px;
+}
+
+#about .logo h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about h2 { 
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#about .aboutelements p {
+    font-size: 16px;
+    font-size: 400;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+#about .aboutelements h2 {
+    margin-bottom: 20px;
+}
+
+#benefits {
+    padding: 30px 0;
+}
+
+#benefits .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#benefits h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#benefits ul li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: bold;
+    border: aqua solid;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+#benefits .check {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#contact {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #262626;
+    color: white;
+}
+
+#contact h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#contact h3 {
+    font-weight: bold;
+}
+
+#contact p {
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+
+
+#contact .container {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    border: aqua solid 5px ;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+#contact form input,
+#contact form button,
+#contact form textarea {
+    resize: none;
+    background-color: #313131;
+    color: white;
+    padding: 6px;
+    margin: 2px;
+    border-radius: 5px;
+    border: transparent solid 2px;
+}
+
+#contact form input::-webkit-input-placeholder,
+#contact form textarea::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#contact form input:focus,
+#contact form textarea:focus {
+    border: white solid 2px;
+    outline: none;
+}
+
+#contact form button{
+    width: 170px;
+    text-transform: uppercase;
+    border: transparent solid 2px;
+    font-weight: bold;
+    color: white;
+}
+
+#contact form button:hover {
+    cursor: pointer;
+    border: white solid 2px;
+}
+
+#contact .telandemail {
+    display: inline-block;
+    text-align: start;
+}
+
+#contact .contactimgs {
+    display: flex;
+    align-items: center;
+}
+
+#contact img {
+    height: 30px;
+    margin-right: 15px;
+    filter: invert(100%);
+}
+
+#contact img:hover {
+    filter: invert(80%);
+}
+
+#contact .telandemail h3 {
+    margin-bottom: 5px;
+}
+
+#contact a {
+    color: white;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#contact .buttonwpp {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact .buttonwpp a{
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+
+#contact .buttonwpp img {
+    filter: invert(15%);
+}
+
+footer {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+}
