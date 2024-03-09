@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+header {
+    margin: 16px;
+    text-align: center;
+    font-size: 32px;
+}
+
+header p {
+    font-size: 20px;
+    margin: 2px;
+}
+
+form {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+form input,
+form button{
+    font-size: 32px;
+    padding: 2px 5px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+form button {
+    background-color: aqua;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 128, 128);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+}
+
+ul li::first-letter {
+    text-transform: uppercase;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+ul li img {
+    width: 32px;
+    vertical-align: middle;
+}
+
+.tarefa-feita {
+    text-decoration: line-through
+}
