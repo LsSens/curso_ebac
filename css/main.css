@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: fixed;
+    background-image: url('/exerciciopluginsjquery/imgs/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    backdrop-filter: blur(30px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.281);
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+}
+
+.container h1 {
+    border-bottom: solid 1px white;
+    padding: 0 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+form .form-campo {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 5px;
+    color: white
+}
+
+form .form-campo input {
+    background: transparent;
+    border: solid 1px rgb(175, 175, 175);
+    border-radius: 10px;
+    padding: 8px 5px;
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#estado {
+    text-transform: uppercase;
+}
+
+#email{
+    text-transform: none;
+}
+
+.form-campo input:focus {
+    border-color: white;
+}
+
+
+.form-campo input::placeholder {
+    color: rgb(175, 175, 175);
+}
+
+form .endereco {
+    width: 65%;
+}
+
+form .form-button {
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+
+.form-button button,
+.confirmacao-botoes button {
+    border: none;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.856);
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.form-button button:hover,
+.confirmacao-botoes button:hover {
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+.reset button,
+#alterar-dados{
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+}
+
+.reset button:hover,
+#alterar-dados:hover {
+    background-color: transparent;
+    border-color: rgb(112, 112, 112);
+    color: rgb(112, 112, 112);
+}
+
+hr {
+    margin: 10px 0;
+    width: 100%;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.error{
+    color: rgb(255, 0, 0)
+}
+
+.ultima-linha {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.cidade {
+    margin-right: 5%;
+}
+
+.confirmacao-dados,
+.confirmacao-endereco {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.confirmacao-dados p{
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+.confirmacao-endereco p {
+    margin-bottom: 10px;
+}
+
+.separador-dados-endereco h2 {
+    width: 30%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: solid 1px white;
+    color: white;
+}
+
+.separador-dados-endereco {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+
+#start {
+    text-align: start;
+}
+
+#center {
+    text-align: center;
+}
+
+#end {
+    text-align: end;
+}
+
+.nome-sobrenome {
+    text-transform: capitalize;
+}
+
+.confirmacao-botoes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
