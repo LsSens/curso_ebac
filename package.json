@@ -1,0 +1,16 @@
+{
+  "name": "ebac-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.2.1"
+  }
+}
